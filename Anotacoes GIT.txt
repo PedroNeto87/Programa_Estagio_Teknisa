@@ -1,0 +1,54 @@
+Git e GitHub
+
+git --version > Mostra a versão
+git init > Inicializar repositório
+git add ./<nomeArquivo> > Add arquivos na area de staging
+git status > Mostrar status da pasta
+git commit -m "Primeiro commit" > 'Comitar'
+git branch -M "main" > Criar branch principal
+git branch > Mostrar as branch do repositório
+git log > Visualizar log
+git log --oneline > Visualizar log simplificado
+git show > Visualizar detalhes do repositório
+git reset --hard > Voltar código para último commit
+code . > Abrir VS Code
+
+GitHub
+Criar repositório
+
+git remote add origin <https:...> > Conectar repositório da máquina com o web
+git push -u origin main/master > Enviar para o repositório web os arquivos 'comitados'
+
+git checkout -b "nomebranch" > Criar novas branchs
+
+Na hora de enviar para o repositório web não esqueça de colocar o nome da nova branch no push
+git push origin novabranch
+
+git checkout main > Retorna para branch 'main'
+git merge novabranch > Juntar a novabranch na main
+git push origin main > Após processo de merge, enviar o repositório principal para web
+
+Clonar
+No repositório web, escolher o projeto que queira clonar, code > HTTPS copiar o caminho https desse repositório
+
+No terminal
+git clone <https:...>  > Colar o caminho (shift+insert)
+
+cd nomepasta > Entrar na pasta
+ls > Listar arquivos da pasta
+clear > Limpar tela do terminal
+
+git pull > Atualiza o repositório local com as informações atualizadas no repositório web
+
+Fork
+Para fazer o fork, acesse o repositório que deseja enviar para sua área de repositórios web, clique em 'fork'
+
+
+SITE PARA PRATICAR COMANDOS (EM INGLÊS):
+https://learngitbranching.js.org/
+
+SITE COM DICAS DOS COMANDOS (EM PORTUGUÊS):
+https://gitfichas.com/
+
+10 COMANDOS GIT IMPORTANTES (EM INGLÊS):
+https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/
